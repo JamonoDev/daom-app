@@ -1,0 +1,35 @@
+# Nom et description du projet
+name: categorie_repository
+description: "categorie repository."
+
+# Configuration de la publication du package
+publish_to: 'none'
+
+# Version de l'application et numéro de build
+version: 1.0.0+1
+
+# Environnement SDK requis
+environment:
+  sdk: ^3.5.3
+
+# Dépendances nécessaires pour l'application
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.3
+# Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+
+# Dépendances nécessaires pour le développement et les tests
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# Configuration spécifique à Flutter
+flutter:
+  uses-material-design: true
