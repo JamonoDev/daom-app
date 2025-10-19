@@ -57,7 +57,7 @@ android {
     defaultConfig {
         applicationId "com.jamonodev.daomapp" // replace with your app id
         minSdkVersion 23 // Set to 23 or higher
-        targetSdkVersion 33 // Ensure this is the latest version
+        targetSdkVersion 34 // Ensure this is the latest version
         versionCode 1
         versionName "1.0"
         namespace = "com.jamondev.daom_app" // Add this line for namespace
